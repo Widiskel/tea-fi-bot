@@ -1,0 +1,38 @@
+{
+  "name": "tea-fi-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Tea-Fi Sugarize",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js",
+    "setup": "node setup.js",
+    "dev": "node index.js",
+    "test": "node test.js",
+    "build": "rm -rf app && javascript-obfuscator --config build-config.json"
+  },
+  "keywords": [
+    "tea",
+    "tea-fi-bot",
+    "tea-fi",
+    "polygon",
+    "widiskel"
+  ],
+  "author": "Widiskel",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Widiskel/tea-fi-bot.git"
+  },
+  "dependencies": {
+    "bip39": "^3.1.0",
+    "ethers": "^6.13.2",
+    "https-proxy-agent": "^7.0.6",
+    "moment-timezone": "^0.5.45",
+    "node-fetch": "^3.3.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "twisters": "^1.1.0",
+    "winston": "^3.13.0"
+  }
+}
