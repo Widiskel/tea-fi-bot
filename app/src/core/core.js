@@ -73,5 +73,4 @@ Below is the raw data where 'tPOL' is set as gas fee
     }
 }
 
-
 */
